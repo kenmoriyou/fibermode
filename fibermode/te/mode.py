@@ -3,7 +3,6 @@ from typing import Callable, Optional
 
 import numpy as np
 from numpy.typing import ArrayLike
-import scipy.optimize as optimize
 
 import fibermode.te.equations as eq
 from fibermode.mode import Field, Mode
