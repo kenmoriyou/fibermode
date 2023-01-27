@@ -1,0 +1,29 @@
+package:
+  name: "fibermode"
+  version: "0.1.0"
+
+source:
+  git_rev: v1.3.1
+  git_url: https://github.com/carpinchomug/fibermode
+
+requirements:
+  host:
+    - python
+    - setuptools
+  build:
+    - python
+  run:
+    - python
+    - numpy
+    - scipy
+
+about:
+  home: https://github.com/carpinchomug/fibermode
+  license: MIT
+  license_familY: MIT
+  license_file: LICENSE
+  summary: "Easy, quick access to CETB files for SWE analysis"
+
+extra:
+  recipe-maintainers:
+    - wino6687
